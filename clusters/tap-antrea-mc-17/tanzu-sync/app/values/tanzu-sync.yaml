@@ -1,0 +1,7 @@
+---
+git:
+  url: https://github.com/dapdelivery/tap-gitops-27-02-2024-07-08-58-830080398.git
+  ref: origin/master
+  sub_path: clusters/tap-antrea-mc-17/cluster-config
+tap_package_repository:
+  oci_repository: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages
