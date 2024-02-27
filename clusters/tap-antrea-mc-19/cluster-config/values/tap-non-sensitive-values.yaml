@@ -1,0 +1,16 @@
+---
+tap_install:
+  values:
+    profile: run
+    ceip_policy_disclosed: TRUE
+    supply_chain: basic
+    contour:
+      envoy:
+        service:
+          type: LoadBalancer
+        listenIPFamily: IPv4
+    appliveview_connector:
+      backend:
+        sslDeactivated: TRUE
+        ingressEnabled: true
+        host: appliveview.tap.tap-antrea-mc-17.tapdemo.eng.vmware.com
